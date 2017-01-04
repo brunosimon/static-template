@@ -117,7 +117,7 @@ gulp.task( 'remove-maps', function()
         .pipe( gulp_clean( { force: true, read: false } ) )
 } )
 
-gulp.task( 'build', [ 'build-scripts'/*, 'build-styles', 'remove-maps'*/ ], function()
+gulp.task( 'build', [ 'build-scripts', 'build-styles', 'remove-maps' ], function()
 {
     return gulp.src( './' )
         .pipe( gulp_notify( {
