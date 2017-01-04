@@ -39,3 +39,4 @@ Simple static HTML/CSS/JS template
 ### Todo
 
 - [ ] Seperate scripts compiler from script watcher
+- [ ] Add params objet in gulpfiles, mostly for pathes
